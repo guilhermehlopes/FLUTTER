@@ -1,0 +1,29 @@
+name: consulta_cep
+description: "A new Flutter project."
+
+# Impede que o pacote seja publicado acidentalmente no pub.dev
+publish_to: 'none'
+
+# Versão do aplicativo
+version: 1.0.0+1
+
+# Ambiente do SDK
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+# Dependências do projeto
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  cupertino_icons: ^1.0.8
+
+# Dependências de desenvolvimento
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# Configuração específica do Flutter
+flutter:
+  uses-material-design: true
